@@ -1,0 +1,22 @@
+﻿Build started 6/26/2014 2:17:47 PM.
+     1>Project "c:\Users\deadtomgc\documents\visual studio 2010\Projects\opencvtest\opencvtest\opencvtest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\opencvtest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\deadtomgc\documents\visual studio 2010\projects\opencvtest\opencvtest\main.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\deadtomgc\documents\visual studio 2010\Projects\opencvtest\Debug\opencvtest.exe" /NOLOGO opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib OpenNI2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\opencvtest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\deadtomgc\documents\visual studio 2010\Projects\opencvtest\Debug\opencvtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\deadtomgc\documents\visual studio 2010\Projects\opencvtest\Debug\opencvtest.lib" /MACHINE:X86 Debug\main.obj
+         LINK : c:\users\deadtomgc\documents\visual studio 2010\Projects\opencvtest\Debug\opencvtest.exe not found or not built by the last incremental link; performing full link
+         opencvtest.vcxproj -> c:\users\deadtomgc\documents\visual studio 2010\Projects\opencvtest\Debug\opencvtest.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\deadtomgc\documents\visual studio 2010\Projects\opencvtest\Debug\opencvtest.exe;#1" /manifest Debug\opencvtest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\opencvtest.unsuccessfulbuild".
+         Touching "Debug\opencvtest.lastbuildstate".
+     1>Done Building Project "c:\Users\deadtomgc\documents\visual studio 2010\Projects\opencvtest\opencvtest\opencvtest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.08
